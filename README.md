@@ -1,16 +1,18 @@
-# _Title_
+# _Queen Attack_
 
-#### By _Joey Palchak_
+#### By _Joey Palchak, Paul LeTourneau, Jake Elsberry_
 
-#### _{Brief description of application}_
+#### _A C# console application that determines the legality of a chess move._
 
 ## Technologies Used
 
-* C#
+* C#/.NET
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+A console application where the user can enter X and Y coordinates for both a queen and another chess piece. The program determines whether the queen is capable of 'attacking' the other chess piece by comparing both pieces coordinates on the board, and returning either 'true' or 'false'.
+
+No UI has been implemented. At the project's current state, the backend logic is functional and has been tested.
 
 ## Setup/Installation Requirements
 
@@ -21,11 +23,10 @@ _{This is a detailed description of your application. Give as much detail as nee
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _No UI has been implemented._
 
 ## License
 
 MIT License
 
-Copyright (c) _date_ _Joey Palchak_
+Copyright (c) _09/18/2023_ _Joey Palchak, Paul LeTourneau, Jake Elsberry_
