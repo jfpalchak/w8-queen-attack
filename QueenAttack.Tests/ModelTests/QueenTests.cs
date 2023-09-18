@@ -44,7 +44,17 @@ namespace QueenAttack.Tests
       // arrange
       Queen newQueen = new Queen(3,5);
       // act
-      bool isLegal = newQueen.CheckLegalMove(1, 8);
+      bool isLegal = newQueen.CheckLegalMove(10, 8);
+      // assert
+      Assert.AreEqual(false, isLegal);
+    }
+     [TestMethod]
+    public void CheckLegalMove_DeterminesIfYIsFalse_Bool()
+    {
+      // arrange
+      Queen newQueen = new Queen(3,5);
+      // act
+      bool isLegal = newQueen.CheckLegalMove(8, 10);
       // assert
       Assert.AreEqual(false, isLegal);
     }

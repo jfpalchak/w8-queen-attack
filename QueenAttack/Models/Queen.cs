@@ -21,10 +21,10 @@ namespace QueenAttack.Models
       {
         return true;
       }
-      // else if ((1 < X && X < 8) && (1 < Y && Y < 8) && (1 < newXAxis && newXAxis < 8) && (1 < newYAxis && newXAxis < 8))
-      // {
-      //   return true;
-      // }
+      else if (((X == newXAxis && Y != newYAxis) || (Y == newYAxis && X != newXAxis)) && ((1 < X && X < 8) && (1 < Y && Y < 8) && (1 < newXAxis && newXAxis < 8) && (1 < newYAxis && newXAxis < 8)))
+      {
+        return true;
+      }
       else 
       {
         return false;
@@ -36,4 +36,3 @@ namespace QueenAttack.Models
 
 }
 
-// else if (X == newXAxis && Y != newYAxis)
